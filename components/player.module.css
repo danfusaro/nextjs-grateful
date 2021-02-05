@@ -1,0 +1,25 @@
+.container {
+  max-width: 45rem;
+}
+
+.tracks {
+  max-height: 15rem;
+  overflow-y: auto;
+}
+
+.audio {
+  width: 100%;
+}
+
+.track {
+  color: gray;
+  cursor: pointer;
+}
+
+.track:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: blue;
+}
